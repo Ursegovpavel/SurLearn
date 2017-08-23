@@ -1,0 +1,777 @@
+﻿Log file open, 08/18/17 19:00:16
+LogInit:Display: Running engine for game: SurLearn
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1632606326) SRandInit(-1632606326).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081885
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.18-16.00.16:850][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-16.00.16:850][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.18-16.00.16:863][  0]LogInit: Computer: PC10-210-3
+[2017.08.18-16.00.16:863][  0]LogInit: User: usr10162
+[2017.08.18-16.00.16:863][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.18-16.00.16:863][  0]LogInit: High frequency timer resolution =3.234372 MHz
+[2017.08.18-16.00.16:863][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.18-16.00.16:863][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.18-16.00.16:863][  0]LogMemory: Process Physical Memory: 273.40 MB used, 273.40 MB peak
+[2017.08.18-16.00.16:863][  0]LogMemory: Process Virtual Memory: 266.83 MB used, 266.83 MB peak
+[2017.08.18-16.00.16:863][  0]LogMemory: Physical Memory: 4233.53 MB used,  12081.52 MB free, 16315.05 MB total
+[2017.08.18-16.00.16:863][  0]LogMemory: Virtual Memory: 643.71 MB used,  12081.52 MB free, 134217728.00 MB total
+[2017.08.18-16.00.16:901][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.18-16.00.16:901][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.18-16.00.16:903][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.18-16.00.16:904][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.18-16.00.17:659][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.18-16.00.17:695][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.18-16.00.17:695][  0]LogD3D11RHI:       8145/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.18-16.00.17:728][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.18-16.00.17:728][  0]LogD3D11RHI:       8145/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.08.18-16.00.17:729][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.18-16.00.17:729][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.18-16.00.17:729][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.18-16.00.17:732][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.18-16.00.17:732][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.18-16.00.17:732][  0]LogWindows: EnumDisplayDevices:
+[2017.08.18-16.00.17:732][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:732][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:732][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:732][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:732][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.18-16.00.17:732][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:733][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:733][  0]LogWindows:    7. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-16.00.17:733][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2017.08.18-16.00.17:733][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.18-16.00.17:733][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.08.18-16.00.17:733][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.08.18-16.00.17:733][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.18-16.00.17:747][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.18-16.00.17:764][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.18-16.00.17:813][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (../../../../TestUE/SurLearn/Intermediate/Shaders/WorkingDirectory/7184/).
+[2017.08.18-16.00.17:813][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/usr10162/AppData/Local/Temp/UnrealShaderWorkingDir/4BF4842D4B444F94DC6EB09C1A7348A7/'.
+[2017.08.18-16.00.17:813][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.18-16.00.18:585][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.18-16.00.18:616][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.18-16.00.18:647][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.18-16.00.18:678][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.18-16.00.18:710][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.18-16.00.18:742][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.18-16.00.18:774][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.18-16.00.18:808][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.18-16.00.18:833][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.18-16.00.18:863][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.18-16.00.18:894][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.18-16.00.18:924][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.18-16.00.18:954][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.18-16.00.18:984][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.18-16.00.19:015][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.18-16.00.19:075][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.18-16.00.19:075][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.18-16.00.19:098][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.18-16.00.19:162][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.18-16.00.19:181][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.18-16.00.19:211][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.18-16.00.19:241][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.18-16.00.19:271][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.18-16.00.19:301][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.18-16.00.19:301][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.18-16.00.19:595][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache: Loaded boot cache 0.06s 103MB C:/Users/usr10162/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/usr10162/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../TestUE/SurLearn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../TestUE/SurLearn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.18-16.00.19:660][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.18-16.00.19:675][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.18-16.00.19:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/usr10162/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.18-16.00.19:696][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.18-16.00.19:696][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.18-16.00.19:696][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-16.00.19:696][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-16.00.19:946][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-16.00.20:019][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.18-16.00.20:128][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.18-16.00.20:153][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.18-16.00.20:180][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.18-16.00.20:180][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.18-16.00.20:180][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.18-16.00.20:596][  0]LogNetVersion: SurLearn , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2153961122)
+[2017.08.18-16.00.20:647][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.08.18-16.00.20:743][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.072060 seconds
+[2017.08.18-16.00.20:748][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.18-16.00.20:748][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.18-16.00.20:748][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.18-16.00.20:785][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.18-16.00.22:422][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.18-16.00.22:449][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.18-16.00.22:783][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.18-16.00.23:029][  0]SourceControl: Info Source control is disabled
+[2017.08.18-16.00.23:060][  0]SourceControl: Info Source control is disabled
+[2017.08.18-16.00.23:087][  0]SourceControl: Info Source control is disabled
+[2017.08.18-16.00.23:113][  0]SourceControl: Info Source control is disabled
+[2017.08.18-16.00.23:480][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.18-16.00.23:819][  0]LogEngine: Initializing Engine...
+[2017.08.18-16.00.23:836][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.18-16.00.23:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.18-16.00.23:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.18-16.00.24:095][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.18-16.00.24:112][  0]LogInit: XAudio2 using '2781-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.18-16.00.24:128][  0]LogInit: FAudioDevice initialized.
+[2017.08.18-16.00.24:170][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/usr10162/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.18-16.00.24:181][  0]LogInit: Texture streaming: Enabled
+[2017.08.18-16.00.24:245][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.18-16.00.24:370][  0]LogInit: Transaction tracking system initialized
+[2017.08.18-16.00.24:547][  0]BlueprintLog: New page: Editor Load
+[2017.08.18-16.00.25:083][  0]LocalizationService: Info Localization service is disabled
+[2017.08.18-16.00.25:483][  0]LogConsoleResponse:Display: 
+[2017.08.18-16.00.25:655][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.18-16.00.25:655][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.18-16.00.25:807][  0]LogFileCache: Scanning file cache for directory 'D:/TestUE/SurLearn/Content/' took 0.03s
+[2017.08.18-16.00.26:243][  0]SourceControl: Info Source control is disabled
+[2017.08.18-16.00.26:243][  0]Cmd: MAP LOAD FILE="../../../../TestUE/SurLearn/Content/Maps/SurMaps.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.18-16.00.26:243][  0]LightingResults: New page: Lighting Build
+[2017.08.18-16.00.26:267][  0]MapCheck: New page: Map Check
+[2017.08.18-16.00.26:267][  0]LightingResults: New page: Lighting Build
+[2017.08.18-16.00.27:041][  0]LogAIModule: Creating AISystem for world SurMaps
+[2017.08.18-16.00.27:188][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.18-16.00.27:215][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.18-16.00.27:243][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.922ms to complete.
+[2017.08.18-16.00.27:243][  0]LogFileHelpers: Loading map 'SurMaps' took 1.000
+[2017.08.18-16.00.27:316][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.18-16.00.27:684][  0]LogCollectionManager: Loaded 0 collections in 0.001013 seconds
+[2017.08.18-16.00.27:815][  0]LogFileCache: Scanning file cache for directory 'D:/TestUE/SurLearn/Saved/Collections/' took 0.01s
+[2017.08.18-16.00.27:815][  0]LogFileCache: Scanning file cache for directory 'D:/TestUE/SurLearn/Content/Developers/usr10162/Collections/' took 0.01s
+[2017.08.18-16.00.27:815][  0]LogFileCache: Scanning file cache for directory 'D:/TestUE/SurLearn/Content/Collections/' took 0.01s
+[2017.08.18-16.00.27:815][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.18-16.00.27:825][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2329 classes and 491 folders.
+[2017.08.18-16.00.27:894][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.18-16.00.28:590][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.18-16.00.28:657][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.18-16.00.29:231][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.18-16.00.29:257][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-16.00.29:259][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.18-16.00.29:283][  0]LogSlate: Took 0.018902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.18-16.00.29:629][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.08.18-16.00.29:902][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.18-16.00.29:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.18-16.00.29:949][  0]LogLoad: (Engine Initialization) Total time: 14.50 seconds
+[2017.08.18-16.00.29:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.18-16.00.29:949][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.18-16.00.29:949][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.18-16.00.29:959][  0]LogOcInput: OculusInput pre-init called
+[2017.08.18-16.00.29:959][  0]LogHMD: Starting GearVRController plugin
+[2017.08.18-16.00.30:011][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.18-16.00.30:091][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.08.18-16.00.30:123][  1]LogAssetRegistry: Asset discovery search completed in 9.4984 seconds
+[2017.08.18-16.00.30:125][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.18-16.00.30:125][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x176b440ffe8 [can pipeline])
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.134.130) port 443 (#0))
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 3 (upload completely sent off: 357 out of 357 bytes)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 6 (Closing connection 0)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFFDF3774-41FD-4C54-02EF-8EA67666140B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=ab4b49e74df7f0a7cbdf3684f2071bf1%7Cd30eecd225464ab8954cb45991b2f674%7C799415c1-7d4f-4701-bd7c-0954a8fc048e&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.18-16.05.56:247][119]LogHttp:Warning: 00000176A2260580: libcurl info message cache 9 (Closing connection 1)
+[2017.08.18-16.06.29:984][167]LogHttp:Warning: 00000176A2263B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.18-16.06.29:984][167]LogHttp:Warning: 00000176A2263B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.18-16.06.29:985][167]LogHttp:Warning: 00000176A2263B80: libcurl info message cache 1 (Closing connection 2)
+[2017.08.18-16.07.29:982][366]LogHttp:Warning: 00000176A2263A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.18-16.07.29:982][366]LogHttp:Warning: 00000176A2263A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.18-16.07.29:982][366]LogHttp:Warning: 00000176A2263A00: libcurl info message cache 1 (Closing connection 3)
+[2017.08.18-16.08.41:565][528]LogHttp:Warning: 00000176A2263700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.18-16.08.41:565][528]LogHttp:Warning: 00000176A2263700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.18-16.08.41:565][528]LogHttp:Warning: 00000176A2263700: libcurl info message cache 1 (Closing connection 4)
+[2017.08.18-16.25.20:178][852]LogSlate: Took 0.019278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-16.25.20:208][852]LogAssetTools:Warning: Failed to import 'C:\Users\usr10162\Downloads\HealthStats.uasset'. Unknown extension 'uasset'.
+[2017.08.18-16.25.20:213][852]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-16.25.26:524][374]LogAssetTools:Warning: Failed to import 'C:\Users\usr10162\Downloads\HealthStats.uasset'. Unknown extension 'uasset'.
+[2017.08.18-16.27.25:045][839]LogAssetTools:Warning: Failed to import 'C:\Users\usr10162\Downloads\HealthStats.uasset'. Unknown extension 'uasset'.
+[2017.08.18-16.28.07:483][302]LogAssetTools:Warning: Failed to import 'C:\Users\usr10162\Downloads\HealthStats.uasset'. Unknown extension 'uasset'.
+[2017.08.18-16.28.44:681][717]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-16.28.54:105][739]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.18-16.28.54:852][739]LogSlate: Took 0.009265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.18-16.29.05:937][546]LogSlate: Took 0.012825 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.18-16.30.32:673][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/SurvCharacter" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset" SILENT=true
+[2017.08.18-16.30.32:835][398]LogSavePackage: Save=109.22ms
+[2017.08.18-16.30.32:835][398]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter4D21D1B7499A7D0D74AFAF9180FFF480.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset'
+[2017.08.18-16.30.32:838][398]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset
+[2017.08.18-16.30.33:224][442]BlueprintLog: New page: Compile SurvCharacter
+[2017.08.18-16.34.53:612][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.34.53:749][353]LogSavePackage: Save=131.06ms
+[2017.08.18-16.34.53:749][353]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStatsEB54C2F74383E03582572BBAB31AA304.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.34.53:751][353]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.34.54:826][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.34.54:958][474]LogSavePackage: Save=130.16ms
+[2017.08.18-16.34.54:958][474]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStatsC3710D1E4359ECE80729C28538F902DA.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.34.54:959][474]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.34.55:851][579]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-16.36.29:928][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.36.30:064][357]LogSavePackage: Save=133.37ms
+[2017.08.18-16.36.30:064][357]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStatsF565106E424B76BBEEAAD7935CD03599.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.36.30:066][357]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.36.53:472][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.36.53:610][  1]LogSavePackage: Save=135.84ms
+[2017.08.18-16.36.53:610][  1]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats0FFB05174B427AFA80A3169097115B6B.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.36.53:612][  1]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.36.54:715][127]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-16.36.55:190][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.36.55:328][164]LogSavePackage: Save=135.85ms
+[2017.08.18-16.36.55:328][164]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats8D1007ED411F45C70070EE81769FF378.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.36.55:328][164]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.44.26:607][188]LogSlate: Took 0.015886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.18-16.44.46:009][101]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-16.45.23:156][421]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.016
+[2017.08.18-16.45.23:178][421]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/HealthStats] ([1] browsable assets)...
+[2017.08.18-16.45.23:178][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/HealthStats]
+[2017.08.18-16.45.23:178][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-16.45.23:328][421]LogSavePackage: Save=142.53ms
+[2017.08.18-16.45.23:328][421]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats_Auto1CAA1D6B2499E9EF57240D6988DCD4743.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto1.uasset'
+[2017.08.18-16.45.23:329][421]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto1.uasset
+[2017.08.18-16.45.23:330][421]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/SurvCharacter] ([1] browsable assets)...
+[2017.08.18-16.45.23:341][421]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/SurvCharacter.SurvCharacter]
+[2017.08.18-16.45.23:341][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/SurvCharacter]
+[2017.08.18-16.45.23:470][421]LogSavePackage: Save=107.02ms
+[2017.08.18-16.45.23:470][421]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter_Auto1EB6495224E8B09619C3B698B0D0ADB4D.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto1.uasset'
+[2017.08.18-16.45.23:470][421]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto1.uasset
+[2017.08.18-16.45.23:470][421]LogFileHelpers: Auto-saving content packages took 0.314
+[2017.08.18-16.46.08:511][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.46.08:649][ 20]LogSavePackage: Save=135.73ms
+[2017.08.18-16.46.08:649][ 20]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats6775D20D4B9C5991D1622AB1DE4305AE.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.46.08:652][ 20]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.46.09:722][143]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-16.54.26:513][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.54.26:656][994]LogSavePackage: Save=137.92ms
+[2017.08.18-16.54.26:656][994]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStatsFE07362347BE562181E11B9B8DD44EA0.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.54.26:657][994]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.54.26:978][ 30]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-16.54.28:967][244]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.18-16.54.29:089][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-16.54.29:089][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-16.54.29:125][244]PIE: New page: PIE session: SurMaps (Aug 18, 2017, 10:54:29 PM)
+[2017.08.18-16.54.29:125][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SurMaps
+[2017.08.18-16.54.29:172][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046621s)
+[2017.08.18-16.54.29:173][244]LogAIModule: Creating AISystem for world SurMaps
+[2017.08.18-16.54.29:173][244]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2017.08.18-16.54.29:173][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SurMaps.SurMaps to /Game/Maps/UEDPIE_0_SurMaps.SurMaps (0.047985s)
+[2017.08.18-16.54.29:220][244]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-16.54.29:257][244]LogInit: FAudioDevice initialized.
+[2017.08.18-16.54.29:340][244]LogLoad: Game class is 'SurvGameMode_C'
+[2017.08.18-16.54.29:347][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SurMaps.SurMaps up for play (max tick rate 0) at 2017.08.18-19.54.29
+[2017.08.18-16.54.29:348][244]LogWorld: Bringing up level for play took: 0.001481
+[2017.08.18-16.54.29:566][244]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.18-16.54.29:570][244]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_SurMaps 0.708
+[2017.08.18-16.54.29:570][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-16.55.17:640][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-16.55.17:672][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-16.57.33:534][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.018
+[2017.08.18-16.57.33:535][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/HealthStats] ([1] browsable assets)...
+[2017.08.18-16.57.33:535][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/HealthStats]
+[2017.08.18-16.57.33:535][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-16.57.33:681][191]LogSavePackage: Save=143.33ms
+[2017.08.18-16.57.33:681][191]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats_Auto25B69AE034C09F04A34228B9B5C88E869.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto2.uasset'
+[2017.08.18-16.57.33:682][191]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto2.uasset
+[2017.08.18-16.57.33:682][191]LogFileHelpers: Auto-saving content packages took 0.147
+[2017.08.18-16.58.33:706][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-16.58.33:844][374]LogSavePackage: Save=134.83ms
+[2017.08.18-16.58.33:844][374]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats34CFD93F4BF287FEDF9508AFEFA176FA.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-16.58.33:845][374]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-16.58.35:133][527]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-17.07.34:457][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.016
+[2017.08.18-17.07.34:458][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/HealthStats] ([1] browsable assets)...
+[2017.08.18-17.07.34:458][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/HealthStats]
+[2017.08.18-17.07.34:458][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-17.07.34:617][574]LogSavePackage: Save=150.64ms
+[2017.08.18-17.07.34:617][574]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats_Auto3327FE84040BA9D7FE8A804A9D2C64FE7.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto3.uasset'
+[2017.08.18-17.07.34:617][574]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/HealthStats_Auto3.uasset
+[2017.08.18-17.07.34:617][574]LogFileHelpers: Auto-saving content packages took 0.160
+[2017.08.18-17.08.43:748][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/HealthStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset" SILENT=true
+[2017.08.18-17.08.43:894][492]LogSavePackage: Save=142.67ms
+[2017.08.18-17.08.43:894][492]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/HealthStats0E76D9174E87DAE99EE59A896E3E249B.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset'
+[2017.08.18-17.08.43:895][492]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/HealthStats.uasset
+[2017.08.18-17.08.44:464][550]BlueprintLog: New page: Compile HealthStats
+[2017.08.18-17.08.45:791][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/SurvCharacter" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset" SILENT=true
+[2017.08.18-17.08.45:890][646]LogSavePackage: Save=92.79ms
+[2017.08.18-17.08.45:890][646]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacterE275382A49FAD9C02B878ABF3D86D476.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset'
+[2017.08.18-17.08.45:891][646]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset
+[2017.08.18-17.11.27:687][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/SurvCharacter" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset" SILENT=true
+[2017.08.18-17.11.27:794][774]LogSavePackage: Save=104.96ms
+[2017.08.18-17.11.27:794][774]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter61FAE1CA47CA16C80A20E3B2347E3CFB.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset'
+[2017.08.18-17.11.27:796][774]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset
+[2017.08.18-17.14.31:830][475]Cmd: DELETE
+[2017.08.18-17.14.31:830][475]Cmd: ACTOR DELETE
+[2017.08.18-17.14.31:985][475]LogEditorActor: Deleted Actor: BlockingVolume
+[2017.08.18-17.14.32:009][475]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.08.18-17.16.23:620][151]LogEditorTransaction: Undo Move Nodes
+[2017.08.18-17.17.35:065][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SurMaps" FILE="../../../../TestUE/SurLearn/Saved/Autosaves/Game/Maps/SurMaps_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.18-17.17.35:355][590]LogSavePackage: Save=278.05ms
+[2017.08.18-17.17.35:355][590]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurMaps_Auto4F32A14594D42CBB551979687E3080185.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Maps/SurMaps_Auto4.umap'
+[2017.08.18-17.17.35:356][590]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Maps/SurMaps_Auto4.umap
+[2017.08.18-17.17.35:359][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.315
+[2017.08.18-17.17.35:359][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.315
+[2017.08.18-17.17.35:361][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/SurvCharacter] ([1] browsable assets)...
+[2017.08.18-17.17.35:374][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/SurvCharacter.SurvCharacter]
+[2017.08.18-17.17.35:374][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/SurvCharacter]
+[2017.08.18-17.17.35:500][590]LogSavePackage: Save=107.21ms
+[2017.08.18-17.17.35:500][590]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter_Auto4050B24524DC88C155FBAD58C338BEA08.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto4.uasset'
+[2017.08.18-17.17.35:500][590]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto4.uasset
+[2017.08.18-17.17.35:500][590]LogFileHelpers: Auto-saving content packages took 0.140
+[2017.08.18-17.17.37:053][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.18-17.17.37:068][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.17.37:069][762]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.18-17.17.37:069][762]LogPlayLevel: [PlayLevel] Compiling SurvCharacter before play...
+[2017.08.18-17.17.37:190][762]LogPlayLevel: PlayLevel: Blueprint regeneration took 120 ms (1 blueprints)
+[2017.08.18-17.17.37:190][762]PIE: New page: PIE session: SurMaps (Aug 18, 2017, 11:17:37 PM)
+[2017.08.18-17.17.37:190][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SurMaps
+[2017.08.18-17.17.37:204][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013778s)
+[2017.08.18-17.17.37:205][762]LogAIModule: Creating AISystem for world SurMaps
+[2017.08.18-17.17.37:205][762]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2017.08.18-17.17.37:205][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SurMaps.SurMaps to /Game/Maps/UEDPIE_0_SurMaps.SurMaps (0.015328s)
+[2017.08.18-17.17.37:240][762]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-17.17.37:263][762]LogInit: FAudioDevice initialized.
+[2017.08.18-17.17.37:292][762]LogLoad: Game class is 'SurvGameMode_C'
+[2017.08.18-17.17.37:295][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SurMaps.SurMaps up for play (max tick rate 0) at 2017.08.18-20.17.37
+[2017.08.18-17.17.37:295][762]LogWorld: Bringing up level for play took: 0.001455
+[2017.08.18-17.17.37:297][762]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_SurMaps 0.469
+[2017.08.18-17.17.37:297][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.18.13:087][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.18.13:134][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.28.30:174][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.015
+[2017.08.18-17.28.30:175][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/SurvCharacter] ([1] browsable assets)...
+[2017.08.18-17.28.30:186][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/SurvCharacter.SurvCharacter]
+[2017.08.18-17.28.30:186][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/SurvCharacter]
+[2017.08.18-17.28.30:294][415]LogSavePackage: Save=102.02ms
+[2017.08.18-17.28.30:294][415]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter_Auto5BFA1C7A44AF225F129B46EA57E424A16.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto5.uasset'
+[2017.08.18-17.28.30:294][415]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto5.uasset
+[2017.08.18-17.28.30:294][415]LogFileHelpers: Auto-saving content packages took 0.120
+[2017.08.18-17.28.31:797][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SurMaps" FILE="../../../../TestUE/SurLearn/Content/Maps/SurMaps.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.18-17.28.32:063][563]LogSavePackage: Save=237.99ms
+[2017.08.18-17.28.32:063][563]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurMapsAADACF104A206EFA15BA8BA12E25FF09.tmp' to '../../../../TestUE/SurLearn/Content/Maps/SurMaps.umap'
+[2017.08.18-17.28.32:068][563]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Maps/SurMaps.umap
+[2017.08.18-17.35.15:460][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/SurvCharacter" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset" SILENT=true
+[2017.08.18-17.35.15:581][107]LogSavePackage: Save=114.83ms
+[2017.08.18-17.35.15:581][107]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter87FCB931478C1413CBDB1C9200B8CD35.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset'
+[2017.08.18-17.35.15:584][107]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset
+[2017.08.18-17.35.16:303][178]BlueprintLog: New page: Compile SurvCharacter
+[2017.08.18-17.38.32:186][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.020
+[2017.08.18-17.38.32:187][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/SurvCharacter] ([1] browsable assets)...
+[2017.08.18-17.38.32:203][ 82]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/SurvCharacter.SurvCharacter]
+[2017.08.18-17.38.32:203][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/SurvCharacter]
+[2017.08.18-17.38.32:326][ 82]LogSavePackage: Save=119.87ms
+[2017.08.18-17.38.32:326][ 82]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter_Auto6EB7F061D4376B41C8D6229B7CCB97C21.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto6.uasset'
+[2017.08.18-17.38.32:326][ 82]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/SurvCharacter_Auto6.uasset
+[2017.08.18-17.38.32:326][ 82]LogFileHelpers: Auto-saving content packages took 0.140
+[2017.08.18-17.38.55:391][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/SurvCharacter" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset" SILENT=true
+[2017.08.18-17.38.55:504][336]LogSavePackage: Save=110.28ms
+[2017.08.18-17.38.55:504][336]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/SurvCharacter1D2348CB4E9FFB8271CAA0A1B803D8BB.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset'
+[2017.08.18-17.38.55:506][336]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/SurvCharacter.uasset
+[2017.08.18-17.38.56:332][415]BlueprintLog: New page: Compile SurvCharacter
+[2017.08.18-17.38.59:174][693]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.18-17.38.59:189][693]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.38.59:189][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-17.38.59:189][693]PIE: New page: PIE session: SurMaps (Aug 18, 2017, 11:38:59 PM)
+[2017.08.18-17.38.59:189][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SurMaps
+[2017.08.18-17.38.59:205][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015414s)
+[2017.08.18-17.38.59:206][693]LogAIModule: Creating AISystem for world SurMaps
+[2017.08.18-17.38.59:206][693]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2017.08.18-17.38.59:206][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SurMaps.SurMaps to /Game/Maps/UEDPIE_0_SurMaps.SurMaps (0.016996s)
+[2017.08.18-17.38.59:240][693]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-17.38.59:262][693]LogInit: FAudioDevice initialized.
+[2017.08.18-17.38.59:294][693]LogLoad: Game class is 'SurvGameMode_C'
+[2017.08.18-17.38.59:296][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SurMaps.SurMaps up for play (max tick rate 0) at 2017.08.18-20.38.59
+[2017.08.18-17.38.59:297][693]LogWorld: Bringing up level for play took: 0.001252
+[2017.08.18-17.38.59:299][693]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_SurMaps 0.511
+[2017.08.18-17.38.59:299][693]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.39.20:644][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.39.20:693][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.39.21:620][348]Cmd: SELECT NONE
+[2017.08.18-17.42.38:815][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-17.42.38:824][587]LogSavePackage: Save=7.21ms
+[2017.08.18-17.42.38:824][587]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStatsBFB4F42B48BDA5D7CBF10494AC555C63.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-17.42.38:825][587]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-17.45.54:515][728]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.18-17.45.54:534][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.45.54:534][728]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.18-17.45.54:534][728]LogPlayLevel: [PlayLevel] Compiling RPGStats before play...
+[2017.08.18-17.45.54:633][728]LogPlayLevel: PlayLevel: Blueprint regeneration took 98 ms (1 blueprints)
+[2017.08.18-17.45.54:633][728]PIE: New page: PIE session: SurMaps (Aug 18, 2017, 11:45:54 PM)
+[2017.08.18-17.45.54:633][728]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SurMaps
+[2017.08.18-17.45.54:649][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016219s)
+[2017.08.18-17.45.54:650][728]LogAIModule: Creating AISystem for world SurMaps
+[2017.08.18-17.45.54:651][728]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2017.08.18-17.45.54:651][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SurMaps.SurMaps to /Game/Maps/UEDPIE_0_SurMaps.SurMaps (0.017789s)
+[2017.08.18-17.45.54:687][728]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-17.45.54:709][728]LogInit: FAudioDevice initialized.
+[2017.08.18-17.45.54:739][728]LogLoad: Game class is 'SurvGameMode_C'
+[2017.08.18-17.45.54:742][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SurMaps.SurMaps up for play (max tick rate 0) at 2017.08.18-20.45.54
+[2017.08.18-17.45.54:742][728]LogWorld: Bringing up level for play took: 0.001377
+[2017.08.18-17.45.54:744][728]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_SurMaps -0.033
+[2017.08.18-17.45.54:744][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.46.16:855][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.46.16:885][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SurMaps.SurMaps:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps' with GeneratedClass '/Game/Maps/SurMaps.SurMaps_C' with ClassGeneratedBy '/Game/Maps/SurMaps.SurMaps:PersistentLevel.SurMaps'
+[2017.08.18-17.50.31:457][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-17.50.31:484][250]LogSavePackage: Save=19.34ms
+[2017.08.18-17.50.31:484][250]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStatsF43A66ED4F22069D16F14F928362C274.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-17.50.31:486][250]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-17.51.12:082][ 46]BlueprintLog: New page: Compile RPGStats
+[2017.08.18-17.51.12:621][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-17.51.12:637][ 95]LogSavePackage: Save=13.84ms
+[2017.08.18-17.51.12:637][ 95]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStatsCED1C6574941A8DA4536519FD4E33932.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-17.51.12:639][ 95]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-17.56.44:238][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-17.56.44:273][475]LogSavePackage: Save=28.64ms
+[2017.08.18-17.56.44:273][475]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStats55EEF4944D281550D524F6972844A220.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-17.56.44:275][475]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-17.56.45:143][577]BlueprintLog: New page: Compile RPGStats
+[2017.08.18-18.00.35:431][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/SurMaps' took 0.018
+[2017.08.18-18.00.35:432][959]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/RPGStats] ([1] browsable assets)...
+[2017.08.18-18.00.35:432][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/RPGStats]
+[2017.08.18-18.00.35:432][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/RPGStats_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-18.00.35:467][959]LogSavePackage: Save=32.05ms
+[2017.08.18-18.00.35:467][959]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStats_Auto7E180B2B542EB2F0612A169BE56ED6F08.tmp' to '../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/RPGStats_Auto7.uasset'
+[2017.08.18-18.00.35:467][959]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Saved/Autosaves/Game/Blueprints/Characters/RPGStats_Auto7.uasset
+[2017.08.18-18.00.35:468][959]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.08.18-18.01.43:268][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-18.01.43:300][720]LogSavePackage: Save=29.55ms
+[2017.08.18-18.01.43:300][720]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStats3B24E70D41CE87F28950269AA851954A.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-18.01.43:301][720]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-18.01.44:576][858]BlueprintLog: New page: Compile RPGStats
+[2017.08.18-18.01.48:172][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/RPGStats" FILE="../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset" SILENT=true
+[2017.08.18-18.01.48:212][243]LogSavePackage: Save=30.50ms
+[2017.08.18-18.01.48:212][243]LogSavePackage: Moving '../../../../TestUE/SurLearn/Saved/RPGStats77298D9D4CEDBA2FF508A8B864F06570.tmp' to '../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset'
+[2017.08.18-18.01.48:212][243]LogSavePackage:Display: Finished SavePackage ../../../../TestUE/SurLearn/Content/Blueprints/Characters/RPGStats.uasset
+[2017.08.18-18.01.49:163][347]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.18-18.01.49:326][348]Cmd: QUIT_EDITOR
+[2017.08.18-18.01.49:779][348]LogExit: Preparing to exit.
+[2017.08.18-18.01.50:691][348]LogDirectoryWatcher: A directory notification for 'D:/TestUE/SurLearn/Content/' was aborted.
+[2017.08.18-18.01.50:726][348]LogExit: Editor shut down
+[2017.08.18-18.01.50:734][348]LogExit: Transaction tracking system shut down
+[2017.08.18-18.01.50:813][348]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.18-18.01.50:813][348]LogExit: Object subsystem successfully closed.
+[2017.08.18-18.01.50:837][348]LogD3D11RHI: Shutdown
+[2017.08.18-18.01.50:837][348]LogD3D11RHI: CleanupD3DDevice
+[2017.08.18-18.01.50:914][348]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.18-18.01.50:935][348]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.18-18.01.50:938][348]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.18-18.01.50:938][348]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.18-18.01.50:938][348]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.18-18.01.50:938][348]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.18-18.01.50:938][348]LogDirectoryWatcher: A directory notification for 'D:/TestUE/SurLearn/Content/Collections/' was aborted.
+[2017.08.18-18.01.50:939][348]LogDirectoryWatcher: A directory notification for 'D:/TestUE/SurLearn/Content/Developers/usr10162/Collections/' was aborted.
+[2017.08.18-18.01.50:939][348]LogDirectoryWatcher: A directory notification for 'D:/TestUE/SurLearn/Saved/Collections/' was aborted.
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.18-18.01.50:939][348]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.18-18.01.51:713][348]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.18-18.01.51:714][348]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.18-18.01.51:767][348]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.18-18.01.51:775][348]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.18-18.01.51:776][348]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.18-18.01.51:777][348]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.18-18.01.51:791][348]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.18-18.01.51:792][348]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.18-18.01.51:893][348]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.18-18.01.51:993][348]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.18-18.01.51:994][348]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.18-18.01.51:995][348]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.18-18.01.52:144][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.18-18.01.52:144][348]LogDirectoryWatcher: A directory notification for '../../../../TestUE/SurLearn/Content/' was aborted.
+[2017.08.18-18.01.52:144][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.18-18.01.52:144][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.18-18.01.52:146][348]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.18-18.01.52:147][348]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.18-18.01.52:212][348]LogDerivedDataCache: Shutdown
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.18-18.01.52:212][348]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.18-18.01.52:213][348]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.18-18.01.52:213][348]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.18-18.01.52:213][348]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.18-18.01.52:213][348]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFFDF3774-41FD-4C54-02EF-8EA67666140B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=ab4b49e74df7f0a7cbdf3684f2071bf1%7Cd30eecd225464ab8954cb45991b2f674%7C799415c1-7d4f-4701-bd7c-0954a8fc048e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.18-18.01.52:221][348]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.18-18.01.52:221][348]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.18-18.01.52:222][348]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.18-18.01.52:223][348]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.18-18.01.52:224][348]LogExit: Exiting.
+[2017.08.18-18.01.52:233][348]Log file closed, 08/18/17 21:01:52
